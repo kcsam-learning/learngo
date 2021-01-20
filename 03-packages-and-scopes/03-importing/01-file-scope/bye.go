@@ -14,6 +14,6 @@ package main
 // This file cannot see main.go's imported names ("fmt").
 // Because the imported names belong to file scope.
 
-// func bye() {
-// 	fmt.Println("Bye!")
-// }
+func bye() {
+	fmt.Println("Bye!")
+}
