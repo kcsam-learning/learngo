@@ -17,6 +17,7 @@ func main() {
 	// which are in the same package
 
 	// Here, `main()` can access `bye()` and `hey()`
+	// by running `go run .`
 
 	// It's because bye.go, hey.go and main.go
 	//   are in the main package.
